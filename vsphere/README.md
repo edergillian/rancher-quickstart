@@ -1,8 +1,7 @@
-# AWS Rancher Quickstart
+# vSphere Rancher Quickstart
 
-Two single-node RKE Kubernetes clusters will be created from two EC2 instances running SLES 15 and Docker.
-Both instances will have wide-open security groups and will be accessible over SSH using the SSH keys
-`id_rsa` and `id_rsa.pub`.
+One single-node RKE Kubernetes cluster will be created from one VM running Ubuntu 20.04 and Docker.
+Both instances will be accessible over SSH using the SSH keys `id_rsa` and `id_rsa.pub`.
 
 ## Variables
 
